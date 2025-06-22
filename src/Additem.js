@@ -27,9 +27,20 @@ function MyVerticallyCenteredModal(props) {
               <Form.Label className='base'>Base unit</Form.Label>
               <Form.Select aria-label="Default select example">
                 <option>Base unit</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="1">Bags</option>
+                <option value="2">Bottles</option>
+                <option value="3">Box</option>
+                <option value="4">Bundle</option>
+                <option value="5">Cans</option>
+                <option value="6">Cartons</option>
+                <option value="7">Dozens</option>
+                <option value="8">Grammes</option>
+                <option value="9">Kilograms</option>
+                <option value="10">Litres</option>
+                <option value="11">Meters</option>
+                <option value="12">Millilitres</option>
+                <option value="13">Numbes</option>
+                <option value="14">Packs</option>
               </Form.Select>
             </Col>
             <Col md={6}>

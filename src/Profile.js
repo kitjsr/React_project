@@ -5,6 +5,44 @@ import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import Button from 'react-bootstrap/Button';
 
 export const Profile = () => {
+    const profiles = [
+        {
+            "id":1,
+            "businessName":"Medicine",
+            "businessType":"Wholesale",
+            "businessCategory":"Wholesale",
+            "phoneNumber":7667017876,
+            "email":"esha@gmail.com",
+            "gstIN":"07ABCDE1234F2Z5",
+            "state":"Jharkhand",
+            "pincode":831008,
+            "businessAddress":"Telco , Jamshedpur"
+        },
+        {
+            "id":2,
+            "businessName":"ShoppingMall",
+            "businessType":"Others",
+            "businessCategory":"Others",
+            "phoneNumber":6287752535,
+            "email":"anu@gmail.com",
+            "gstIN":"09ABCDE1234F2Y5",
+            "state":"Jharkhand",
+            "pincode":831019,
+            "businessAddress":"Birsanagar, Jamshedpur"
+        },
+        {
+            "id":3,
+            "businessName":"Clothing",
+            "businessType":"Manufacturing",
+            "businessCategory":"Manufacturing",
+            "phoneNumber":9235544424,
+            "email":"rita@gmail.com",
+            "gstIN":"07ABCDE1234F2Z5",
+            "state":"Delhi",
+            "pincode":110049,
+            "businessAddress":"New Delhi , India"
+        },
+    ]
   return (
     <Container className='heading'>
         <Row>
