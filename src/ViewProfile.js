@@ -86,7 +86,7 @@ export const ViewProfile = () => {
                   <td><EditOutlinedIcon style={{color:"green"}}/></td>
                   <td><DeleteOutlineOutlinedIcon style={{color:"red"}}/></td>
                 </tr>
-              ))}
+              ))}.
             </tbody>
           </Table>
           </Col>
