@@ -20,6 +20,7 @@ import { Model } from './Model';
 import Party from "./Party";
 import Profile from "./Profile";
 import { ViewProfile } from "./ViewProfile";
+import { Toggle } from "./Toggle";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
               <Route path="/party" element={<Party />} />
               <Route path="/profile" element={<Profile/>} />
               <Route path="/viewProfile" element={<ViewProfile/>} />
+              <Route path="/toggle" element={<Toggle/>} />
               <Route path="/*" element={<Home />} />
             </Routes>
           </Col>

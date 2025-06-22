@@ -38,9 +38,9 @@ export const SidebarData = [
         link:"/profile",
     },
     {
-        title:"View Profile",
+        title:"Toggle",
         icon:<AddCircleOutlinedIcon/>,
-        link:"/viewProfile",
+        link:"/toggle",
     },
 ]
 
